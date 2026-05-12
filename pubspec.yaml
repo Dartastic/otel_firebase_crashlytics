@@ -3,7 +3,7 @@ description: OpenTelemetry instrumentation for `package:firebase_crashlytics`.
   Records crashes both to Crashlytics and as OTel SpanEvents on the
   active span — so the exception that landed in Crashlytics also
   appears in the trace context where it happened.
-version: 0.1.0-wip
+version: 0.1.0-beta.1-wip
 repository: https://github.com/Dartastic/otel_firebase_crashlytics
 homepage: https://dartastic.io
 
