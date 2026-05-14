@@ -3,7 +3,7 @@
 
 import 'dart:async';
 
-const Symbol _suppressKey = #dartastic_firebase_crashlytics_otel_suppress;
+const Symbol _suppressKey = #otel_firebase_crashlytics_suppress;
 
 bool crashlyticsInstrumentationSuppressed() {
   return Zone.current[_suppressKey] == true;

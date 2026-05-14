@@ -1,4 +1,4 @@
-# dartastic_firebase_crashlytics_otel
+# otel_firebase_crashlytics
 
 OpenTelemetry bridge for
 [`package:firebase_crashlytics`](https://pub.dev/packages/firebase_crashlytics),
@@ -12,7 +12,7 @@ it happened. One call, two destinations.
 
 ```dart
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
-import 'package:dartastic_firebase_crashlytics_otel/dartastic_firebase_crashlytics_otel.dart';
+import 'package:otel_firebase_crashlytics/otel_firebase_crashlytics.dart';
 
 final crashlytics = FirebaseCrashlytics.instance;
 
